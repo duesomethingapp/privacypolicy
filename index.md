@@ -76,4 +76,4 @@ We may update this Privacy Policy from time to time to reflect changes to Due So
 
 ## Contact Us
 
-If you have questions about this Privacy Policy, contact us at [duesomethingapp@gmail.com.](mailto:duesomethingapp@gmail.com)
+If you have questions about this Privacy Policy, contact us at [duesomethingapp@gmail.com](mailto:duesomethingapp@gmail.com).
