@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Due Something
+description: Pokes to Remind — For Tasks You Can't Forget
 ---
 
 # Privacy Policy
