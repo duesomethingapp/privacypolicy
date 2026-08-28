@@ -34,7 +34,7 @@ $body-link-color:           #007aff;
 }
 
 /* The hero button needs blue-on-light instead of Cayman's white-on-dark. */
-.page-header .btn { display: none; }
+.page-header .btn { 
   color: #0057d8;
   border-color: rgba(0, 87, 216, 0.4);
   background-color: rgba(255, 255, 255, 0.6);
