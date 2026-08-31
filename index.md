@@ -6,7 +6,7 @@ description: Pokes to Remind — For Tasks You Can't Forget
 
 # Privacy Policy
 
-**Last Updated: August 27, 2026**
+**Last Updated: August 31, 2026**
 
 Due Something is designed to operate using Apple's system services without requiring an account or collecting your personal information on servers operated by Due Something. This Privacy Policy explains how information is handled when you use the Due Something app on supported Apple platforms.
 
@@ -28,6 +28,9 @@ Due Something requests access to your microphone and to speech recognition so yo
 
 ### Notifications
 Due Something requests permission to send notifications so it can alert you when a task is due and let you snooze or complete it from the alert. Notifications are scheduled locally on your device. Controlled in Settings.
+
+### Camera and Photos
+Due Something requests access to your camera so you can take a photo or scan a document to attach to a task. Photos attached from your photo library are chosen through Apple's photo picker, which shares only the items you select — Due Something cannot browse your library and does not request photo library access. Attached images are stored locally on your device alongside the app's data and may appear in that task's notifications. They stay with the task through Recently Deleted and are removed when the task is permanently deleted. Attachments are never uploaded or shared. Optional — controlled in Settings.
 
 ### Web Links
 When you add a web link to a task, Due Something may request that web page (and, for YouTube links, YouTube's public information service) to retrieve the page's title so it can label the task. This request goes to the website you provided; the result is used only on your device.
