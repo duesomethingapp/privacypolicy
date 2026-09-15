@@ -6,7 +6,7 @@ description: Pokes to Remind — For Tasks You Can't Forget
 
 # Privacy Policy
 
-**Last Updated: September 11, 2026**
+**Last Updated: September 15, 2026**
 
 Due Something is designed to operate using Apple's system services without requiring an account or collecting your personal information on servers operated by Due Something. This Privacy Policy explains how information is handled when you use the Due Something app on supported Apple platforms.
 
@@ -38,11 +38,17 @@ Due Something requests access to your Contacts only to make setting a location e
 
 ### Microphone and Speech Recognition
 
-Due Something requests access to your microphone and to speech recognition so you can dictate a task by voice. The microphone captures audio only while you are actively dictating, and Apple's speech recognition converts that audio into text for the task's title. Depending on your device and settings, Apple may process the audio on-device or on Apple's servers. Optional — controlled in Settings.
+Due Something requests access to your microphone and to speech recognition so you can dictate a task by voice, on iPhone, iPad, and Apple Watch. The microphone captures audio only while you are actively dictating, and Apple's speech recognition converts that audio into text for the task's title. Depending on your device and settings, Apple may process the audio on-device or on Apple's servers. Optional — controlled in Settings.
 
 ### Notifications
 
 Due Something requests permission to send notifications so it can alert you when a task is due and let you snooze or complete it from the alert. Notifications are scheduled locally on your device. Due Something also registers for silent push notifications from Apple's iCloud service so that changes made on one of your devices reach your others promptly; these carry no content and are not shown to you. Controlled in Settings.
+
+### Alarms
+
+Due Something can set a system alarm for a task, for the few things a notification isn't enough for. Turning on **Create Alarm** in the task editor asks for permission to schedule alarms, and the alarm then rings at the task's due time using the system's own alarm sound and Stop control.
+
+Alarms are scheduled locally on your device through Apple's AlarmKit. The alarm shows the task's title; no other information is included, and nothing is sent to the developer. Each device asks for this permission separately. Whether a task has an alarm is synced between your devices as described under _iCloud_ below; the alarms themselves are scheduled on each device from that preference. Optional — controlled in Settings.
 
 ### Camera and Photos
 
@@ -60,19 +66,28 @@ So that you can find tasks from your device's search, Due Something adds your op
 
 Widgets, Lock Screen widgets, Control Center controls, and the overdue Live Activity display your task information outside the app. To make this possible, Due Something writes a small snapshot of the tasks being shown to a storage area shared between the app and its widgets on the same device. Live Activities are created and updated locally by the app; no remote service is used to push them. This information stays on your device and is visible wherever you have chosen to show it, including the Lock Screen.
 
+### Apple Watch
+
+The Due Something app on Apple Watch reads your reminders from the Watch's own copy of the Reminders database and shows the same tasks as your other devices. If you dictate a task on the Watch, Apple's speech recognition converts what you say to text as described under _Microphone and Speech Recognition_ above.
+
+watchOS does not allow apps to change reminders directly, so completing, snoozing, or adding a task on the Watch is carried out by your iPhone on its behalf. What you did travels to your iPhone directly when it is nearby. When it isn't, the instruction — which for a new task includes the title you dictated — is held in your private iCloud account, end-to-end encrypted, until your iPhone can apply it, and is removed once it has. This is covered by the _iCloud_ section below.
+
 ### iCloud
 
 Your reminders and lists sync through Apple's Reminders service. In addition, Due Something uses Apple's iCloud (CloudKit) to keep the app's own data the same on all devices signed in to your Apple account. This data is stored in the private iCloud database that belongs to your Apple account and includes:
 
-*   Flags, Emergent marks, and muted alerts on tasks
-*   Per-task snooze settings, snooze history, and location alerts
-*   Attachments
-*   List preferences such as icons, hidden lists, sort order, and list order
-*   Your Recently Deleted list
-*   Saved places for location snoozing
-*   A record of which calendar events you have imported
-*   App settings, in the sections you choose
-*   The history used for snooze suggestions
+* Flags, Emergent marks, and muted alerts on tasks
+* Per-task snooze settings, snooze history, and location alerts
+* Whether a task has an alarm
+* Calendar events a task has written for itself through Add to Calendar
+* Attachments
+* List preferences such as icons, hidden lists, sort order, list order, and the order you have dragged tasks into
+* Your Recently Deleted list
+* Saved places for location snoozing
+* A record of which calendar events you have imported
+* Actions taken on an Apple Watch that are waiting for your iPhone to apply them
+* App settings, in the sections you choose
+* The history used for snooze suggestions
 
 All of this information is end-to-end encrypted: it is encrypted on your device with keys that live in your iCloud Keychain, and neither the developer nor Apple can read it. Attachment files are protected by iCloud's standard encryption in transit and at rest. Due Something also stores a random identifier for each of your devices so that changes can be attributed to the device that made them; it contains no personal information.
 
