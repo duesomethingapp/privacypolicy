@@ -6,7 +6,7 @@ description: Pokes to Remind — For Tasks You Can't Forget
 
 # Privacy Policy
 
-**Last Updated: September 15, 2026**
+**Last Updated: September 23, 2026**
 
 Due Something is designed to operate using Apple's system services without requiring an account or collecting your personal information on servers operated by Due Something. This Privacy Policy explains how information is handled when you use the Due Something app on supported Apple platforms.
 
@@ -53,6 +53,14 @@ Alarms are scheduled locally on your device through Apple's AlarmKit. The alarm 
 ### Camera and Photos
 
 Due Something requests access to your camera so you can take a photo or scan a document to attach to a task. Photos attached from your photo library are chosen through Apple's photo picker, which shares only the items you select — Due Something cannot browse your library and does not request photo library access. Attached images and files are stored on your device alongside the app's data, may appear in that task's notifications, and are synced to your other devices through your private iCloud account as described under _iCloud_ below. They stay with the task through Recently Deleted and are removed when the task is permanently deleted. Attachments are never sent to the developer or to any third party. Optional — controlled in Settings.
+
+### Content from Other Apps
+
+You can start a task from something in another app, either by dragging text, a link, or files onto one of your lists, or by sharing them to Due Something from that app's share sheet. In both cases Due Something receives only what you hand it for that one action; it cannot browse the other app or read anything you did not share or drop.
+
+What arrives is used to fill in a new task — text becomes the title and notes, a link is kept in the notes, and files are copied in as attachments. Until you save, all of this is an unsaved draft held on your device: nothing is added to your reminders, and cancelling discards it, including any file data that was copied. Once you save, the link and any attachments are handled exactly as described under _Camera and Photos_ and _Web Links_ — stored on your device, synced to your other devices through your private iCloud account if you have iCloud Sync on, and never sent to the developer or any third party.
+
+Dropping or sharing a link does not by itself fetch anything from the internet.
 
 ### Web Links
 
