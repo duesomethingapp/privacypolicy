@@ -6,7 +6,7 @@ description: Pokes to Remind — For Tasks You Can't Forget
 
 # Privacy Policy
 
-**Last Updated: September 23, 2026**
+**Last Updated: September 26, 2026**
 
 Due Something is designed to operate using Apple's system services without requiring an account or collecting your personal information on servers operated by Due Something. This Privacy Policy explains how information is handled when you use the Due Something app on supported Apple platforms.
 
@@ -90,6 +90,10 @@ Your reminders and lists sync through Apple's Reminders service. In addition, Du
 * Calendar events a task has written for itself through Add to Calendar
 * Attachments
 * List preferences such as icons, hidden lists, sort order, list order, and the order you have dragged tasks into
+* Smart lists you have built yourself — their names, icons, colors, and the rules that decide what they show
+* Saved Multi-List layouts — which pair of lists each one opens
+* List templates — a template's name, icon, color, and the titles, notes, links, priority, and flags of the tasks saved in it
+* When you last marked each list reviewed
 * Your Recently Deleted list
 * Saved places for location snoozing
 * A record of which calendar events you have imported
@@ -98,6 +102,8 @@ Your reminders and lists sync through Apple's Reminders service. In addition, Du
 * The history used for snooze suggestions
 
 All of this information is end-to-end encrypted: it is encrypted on your device with keys that live in your iCloud Keychain, and neither the developer nor Apple can read it. Attachment files are protected by iCloud's standard encryption in transit and at rest. Due Something also stores a random identifier for each of your devices so that changes can be attributed to the device that made them; it contains no personal information.
+
+Some of the app's data deliberately stays on the device that made it and is never sent to iCloud. Review reminders for a list are one of these: the schedule you set — how often and at what time — belongs to that device, so you choose where you are reminded. Only the record of when you last reviewed a list is kept in step across your devices.
 
 Syncing is on automatically when you are signed in to iCloud. You can turn it off for a device, and choose which sections of settings are kept in sync, in the app under **Settings → iCloud Sync**. You can also turn Due Something off under your Apple account's iCloud settings on any device. Attachments stored in iCloud count toward your iCloud storage. The developer has no access to your iCloud account or to any of this data.
 
